@@ -25,7 +25,7 @@ linkedin_username: phillipmclaurin
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-awesome
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
