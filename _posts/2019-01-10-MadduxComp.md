@@ -73,4 +73,4 @@ I've chosen pitchers with a walk rate less than 5.5% because I can. Maddux is ti
 
 Just in case you aren't convinced because his IP is much higher than the other *control* pitchers, I also included the last column to show the best five year stretch of each pitcher's career. Once again, Maddux is at the top, and it's by a wide margin. Halladay would need a season of 7.4 mWAR just to match Maddux's best 5 year peak. That's incredible when you consider that Halladay is a shoo-in HOF pitcher in his own right. No other *control* pitcher has really come close to matching Maddux's career value and peak value. That's insane! Can we really expect Kershaw to put up great numbers by switching from a strikeout pitcher to a control pitcher? I don't think so. It's insulting to Maddux's career to say otherwise.
 
-All of that to say that that no, Kershaw can't and won't become Maddux-esque. Maddux is one of a kind. So let's stop using the *Greg Maddux Comp* so much. Mad Dog deserves better.
+All of that to say that no, Kershaw can't and won't become Maddux-esque. Maddux is one of a kind. So let's stop using the *Greg Maddux Comp* so much. Mad Dog deserves better.
