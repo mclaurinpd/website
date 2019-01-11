@@ -1,13 +1,16 @@
 ---
 layout: post
 title:  "The Greg Maddux Comp"
+subtitle: "Why Kershaw Isn't Maddux."
 date:   2019-01-10 21:55:19 -0500
 categories: baseball
 ---
 
 A few weeks ago I was discussing the decline of Clayton Kershaw with a few folks on Twitter. Someone in the conversation posted his average fastball velocity for each year of his career. If you haven't been paying attention, the most noticeable thing about Kershaw in the last two seasons, besides his recurring back injuries, has been the decrease in the speed of his fastball. It has dropped nearly three miles per hour since he put up the best numbers of his career in 2015.
 
-###2008 Kershaw's Average Fastball Velocity Per Year Since 2007
+#### Kershaw's Average Fastball Velocity Per Year Since 2007
+
+{:class="table table-bordered"}
 |      | Avg. Fastball Velocity(mph) |
 |------|-----------------------------|
 | 2007 | 96.12                       |
@@ -33,11 +36,14 @@ Since not everyone agrees on what model of pitching WAR is best, I've decided to
 
 Anyway, here are their peaks compared:
 
-###Maddux and Kershaw's Peaks Compared
-| Name            | Years      | IP     | K%    | BB%  | ERA+ | fWAR | mWAR                           |
+#### Maddux and Kershaw's Peaks Compared
+
+{:class="table table-bordered"}
+| Name            | Years      | IP     | K%    | BB%  | ERA+ | fWAR | mWAR(5-year peak)                       |
 |-----------------|------------|--------|-------|------|------|------|--------------------------------|
-| Clayton Kershaw | 2011-2015* | 1128.0 | 28.7% | 5.6% | 172  | 36.2 | 37.6                           |
+| Clayton Kershaw | 2011-2015 | 1128.0 | 28.7% | 5.6% | 172  | 36.2 | 37.6                           |
 | Greg Maddux     | 1994-1998* | 1140.1 | 20.2% | 3.3% | 202  | 38.8 | 43.0                           |
+
 <sub><sup>*Maddux missed around 20 games dude to strike-shortened seasons in 1994 and 1995</sup></sub>
 
 Two things really stand out: prime Kershaw struck out batters at a much higher rate than prime Maddux and prime Maddux vastly outperformed prime Kershaw in ERA+. The difference in K% makes sense, because Kershaw isn't a control pitcher. Kershaw is a strikeout pitcher. Kershaw's FIP during his peak was also about two tenths lower than Maddux's. The reason Maddux still has a higher fWAR is probably because league average FIP was higher and Maddux also got more fielding runs. So, obviously, Kershaw and Maddux had different peaks. Their value is similar in fWAR but RA9 WAR values Maddux far more. The blend of RA9 and FIP WAR still favors Maddux too. Kershaw strikes out more people. Maddux allows less runs and walks less people. They're not the same kind of pitcher.
@@ -46,7 +52,9 @@ Also, Maddux would have at least another 4 or 5 wins to add to his WAR total and
 
 So now that we know Maddux and Kershaw had different peaks. Let's take a look at other control pitchers throughout history. As I've already said, Kershaw isn't going to match his 2011-2015 peak. I say that with 100% confidence, so instead I decided to compare his current career numbers to other pitcher's career numbers.
 
-###Career Stats of Control Pitchers(BB% <= 5.5%) From the Expansion Era Onward
+#### Career Stats of Control Pitchers(BB% <= 5.5%) From the Expansion Era Onward
+
+{:class="table table-bordered"}
 | Name                | ERA+ | IP     | BB%  | K%    | fWAR  | mWAR(5-year peak)              |
 |---------------------|------|--------|------|-------|-------|--------------------------------|
 | **Clayton Kershaw** | 159  | 2096.1 | 6.5% | 27.6% | 61.6  | 37.6                           |
