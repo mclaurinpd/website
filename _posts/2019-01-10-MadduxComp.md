@@ -4,6 +4,7 @@ title:  "The Greg Maddux Comp"
 subtitle: "Why Kershaw Isn't Maddux."
 date:   2019-01-10 21:55:19 -0500
 categories: baseball
+description: Greg Maddux is one of a kind.
 ---
 
 A few weeks ago I was discussing the decline of Clayton Kershaw with a few folks on Twitter. Someone in the conversation posted his average fastball velocity for each year of his career. If you haven't been paying attention, the most noticeable thing about Kershaw in the last two seasons, besides his recurring back injuries, has been the decrease in the speed of his fastball. It has dropped nearly three miles per hour since he put up the best numbers of his career in 2015.
