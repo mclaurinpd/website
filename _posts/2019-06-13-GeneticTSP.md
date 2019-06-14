@@ -83,11 +83,11 @@ It's pretty clear what this method does. It swaps two random elements in the lis
 {:class="table table-bordered"}
 | **Solution 1** | 1 | 1 | 0 | 0 | 1 |
 |----------------|---|---|---|---|---|
-| **Solution 2** | 0 | 1 | 1 | 0 | 1 |
+| **Solution 2** | **0** | **1** | **1** | **0** | **1** |
 
 No matter how many times we crossover(breed) these two arrays of bits, we'll never be able to have certain permuations. Notice how the second column of numbers has 1 in both solutions. How will we ever get a 0 in that position of the child solution that these two make? Eventually these two solutions will converge upon a certain solution and probably get stuck there. Unless we mutate. The function above does exactly that. Given a *mutation rate* it will decide whether or not to randomly swap two elements in the list. This is not the only way to mutate solutions for this algorithm, but it was the way that I chose.
 
-Lastly, let's take a look at the actual [genetic algorithm.](https://github.com/mclaurinpd/TravelingSalesman/blob/master/TSPGeneticAlgorithm/GeneticAlgorithm.cs) The constructor takes in some parameters: population size, the number of generations, and the chance of mutation. All you have to do is create a new instance of the algorithm and it will run. I keep track of a few things and write them to a file for each generation. The best trip, the worst trip, the sample and population standard deviation, the mean, and the best overall solution. The fundamentals of the genetic algorithm are in here. Below is the crossover(breeding) method:
+Lastly, let's take a look at the actual [genetic algorithm.](https://github.com/mclaurinpd/TravelingSalesman/blob/master/GeneticTSP/GeneticAlgorithm.cs) The constructor takes in some parameters: population size, the number of generations, and the chance of mutation. All you have to do is create a new instance of the algorithm and it will run. I keep track of a few things and write them to a file for each generation. The best trip, the worst trip, the sample and population standard deviation, the mean, and the best overall solution. The fundamentals of the genetic algorithm are in here. Below is the crossover(breeding) method:
 
 ```C#
         public Trip Crossover(Trip a, Trip b)
