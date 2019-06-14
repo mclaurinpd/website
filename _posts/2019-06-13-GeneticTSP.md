@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Genetic Algorithm"
+subtitle: "For the Traveling Salesman"
 date: 2019-06-13 17:30:00 -0500
 categories: code
 description: Finding the best route.
