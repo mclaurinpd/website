@@ -9,7 +9,7 @@ description: Finding the best route.
 
 ###### I'm going to assume you already know what the Traveling Salesman Problem is. If you don't, don't fret! Go [here](https://en.wikipedia.org/wiki/Travelling_salesman_problem) to read about it and then come back!
 
-You can easily come up with a potential solution for the TSP, but how can you check to make sure it's the best solution? Well... you have to look at all the solutions. Every single one. It's not so bad when there are only 3 or 4 cities. The number of possible solutions is **N!** where **N** is the number of cities. So there's only 6 possible solutions with 3 cities. 24 solutions when there are 4 cities. What about 14 cities? Well, that's eighty seven billion one hundred seventy eight million two hundred ninety one thousand two hundred possible solutions. Yikes.
+You can easily come up with a potential solution for the TSP, but how can you check to make sure it's the best solution? Well... you have to look at all the solutions. Every single one. It's not so bad when there are only 3 or 4 cities. The number of possible solutions is **N!** where **N** is the number of cities. So there's only 6 possible solutions with 3 cities. 24 solutions when there are 4 cities. What about 14 cities? Well, that's 87,178,291,200 possible solutions. Yikes.
 
 This is going to be a series where I write code employing a certain kind of algorithm to find good solutions. You might think I would start with an exhaustive search, but I didn't. I started with a genetic algorithm instead.
 
