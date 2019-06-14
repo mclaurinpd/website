@@ -5,4 +5,4 @@ permalink: /projects/
 description: Cool things I've done.
 ---
 
-I'll get around to writing about some cool things I've done.
+[Genetic Algorithm](https://www.phillipmclaurin.com/code/2019/06/13/genetictsp)
