@@ -79,6 +79,7 @@ The other method that needs a closer look is *Mutate(Random rand).*
 ```
 
 It's pretty clear what this method does. It swaps two random elements in the list. It *mutates* the list. Genetic diversity is important in real life and is also very important in a genetic algorithm. Let me explain why. Take a look at this table:
+
 {:class="table table-bordered"}
 | **Solution 1** | 1 | 1 | 0 | 0 | 1 |
 |----------------|---|---|---|---|---|
@@ -120,6 +121,7 @@ Lastly, let's take a look at the actual [genetic algorithm.](https://github.com/
 There are many, many ways to change this around. I chose rather naively to take the first half of a random solution and add remaining cities of another random solution. This is naive for a few reason. It allows a solution to possibly crossover with itself. It also doesn't provide as much diversity as other methods. But it gets the job done quickly.
 
 250 generations, a population of 2000, and a mutation rate of .2, I got these results:
+
 {:class="table table-bordered"}
 |                                | Generation 0 | Generation 250 |
 |--------------------------------|--------------|----------------|
